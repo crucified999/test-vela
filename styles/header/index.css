@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.header__address-list {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.address-list_item {
+    display: flex;
+    gap: 4px;
+}
+
+.address-list_item_image {
+    width: 16px;
+    height: 16px;
+}
+
+.address-list_item_link {
+    text-decoration: none;
+    color: #343A3F;
+}
+
+.header__links-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.links-list_item {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.links-list_item:hover {
+    opacity: 1;
+}
+
+.linkt-list_item_link {
+    text-decoration: none;
+    color: #343A3F;
+}

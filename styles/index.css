@@ -1,0 +1,6 @@
+@import url('./header/index.css');
+
+body {
+    font-family: 'Maza', sans-serif;
+    margin: 0;
+}
